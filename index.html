@@ -4,70 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="">WebStudio</a>
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
         <ul>
           <li>
-            <a href>Studio</a>
+            <a class="nav-link" href="">Studio</a>
           </li>
           <li>
-            <a href>Portfolio</a>
+            <a class="nav-link" href="">Portfolio</a>
           </li>
           <li>
-            <a href>Contacts</a>
+            <a class="nav-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <address>
+      <address class="address">
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ><br />
           </li>
-          <li><a href="tell:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-link" href="tell:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <h2>Effective Solutions for Your Business</h2>
-      <button type="button">Order Service</button>
+      <h2 class="hero">Effective Solutions for Your Business</h2>
+      <button class="service" type="button">Order Service</button>
       <!-- section 1 -->
       <section>
         <ul>
           <li>
-            <h2>Strategy</h2>
-            <p>
+            <h2 class="description">Strategy</h2>
+            <p class="comment">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
           <li>
-            <h2>Punctuality</h2>
-            <p>
+            <h2 class="description">Punctuality</h2>
+            <p class="comment">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
           <li>
-            <h2>Diligence</h2>
-            <p>
+            <h2 class="description">Diligence</h2>
+            <p class="comment">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
 
           <li>
-            <h2>Technologies</h2>
-            <p>
+            <h2 class="description">Technologies</h2>
+            <p class="comment">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -76,11 +95,11 @@
       </section>
       <!-- section 2 -->
       <section>
-        <h1>Our Team</h1>
+        <h1 class="team">Our Team</h1>
         <ul>
           <li>
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="portfolio">Mark Guerrero</h3>
+            <p class="comment">Product Designer</p>
             <img
               src="./images/markgurerro.jpg"
               alt="Mark Guerrero"
@@ -90,8 +109,8 @@
           </li>
 
           <li>
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="portfolio">Tom Ford</h3>
+            <p class="comment">Frontend Developer</p>
             <img
               src="./images/tomford.jpg"
               alt="Tom Ford"
@@ -101,8 +120,8 @@
           </li>
 
           <li>
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio">Camila Garcia</h3>
+            <p class="comment">Marketing</p>
             <img
               src="./images/gamilagarcia.jpg"
               alt="Camila Garcia"
@@ -112,8 +131,8 @@
           </li>
 
           <li>
-            <h3>Daniel Wilson</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio">Daniel Wilson</h3>
+            <p class="comment">Marketing</p>
             <img
               src="./images/danielwilson.jpg"
               alt="Daniel Wilson"
@@ -125,11 +144,11 @@
       </section>
       <!-- section 3 -->
       <section>
-        <h2>Our Portfolio</h2>
+        <h2 class="team">Our Portfolio</h2>
         <ul>
           <li>
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio">Banking App</h3>
+            <p class="comment-our">App</p>
             <img
               src="./images/bankingapp.jpg"
               alt="Banking App"
@@ -139,8 +158,8 @@
           </li>
 
           <li>
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio">Cashless Payment</h3>
+            <p class="comment-our">Marketing</p>
             <img
               src="./images/cashlesspayment.jpg"
               alt="Cashless Payment"
@@ -150,8 +169,8 @@
           </li>
 
           <li>
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio">Meditation App</h3>
+            <p class="comment-our">App</p>
             <img
               src="./images/meditationapp.jpg"
               alt="Meditation App"
@@ -161,8 +180,8 @@
           </li>
 
           <li>
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio">Taxi Service</h3>
+            <p class="comment-our">Marketing</p>
             <img
               src="./images/taxiservice.jpg"
               alt="Taxi Service"
@@ -172,8 +191,8 @@
           </li>
 
           <li>
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio">Screen Illustrations</h3>
+            <p class="comment-our">Design</p>
             <img
               src="./images/screenillustrations.jpg"
               alt="Screen Illustrations"
@@ -183,8 +202,8 @@
           </li>
 
           <li>
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio">Online Courses</h3>
+            <p class="comment-our">Marketing</p>
             <img
               src="./images/onlinecourses.jpg"
               alt="Online Courses"
@@ -196,7 +215,7 @@
       </section>
     </main>
     <footer>
-      <a href="">WebStudio</a>
+      <a href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
