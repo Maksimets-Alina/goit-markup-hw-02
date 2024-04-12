@@ -110,3 +110,27 @@ ol {
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
+.logo-nav {
+  background-color: #2e2f42;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-color {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.logo-nav-two {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
