@@ -9,10 +9,35 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+/* header */
 .address {
   font-style: normal;
+  margin-left: auto;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -21,6 +46,7 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 .logo-part {
   font-weight: 700;
@@ -31,6 +57,10 @@ ol {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -38,6 +68,8 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
+  padding: 24px 0;
+  display: block;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -53,6 +85,7 @@ ol {
 .address-link:focus {
   color: #404bbf;
 }
+/* section 1 */
 .sectionvan {
   background-color: #2e2f42;
 }
@@ -77,6 +110,7 @@ ol {
 .service:focus {
   background-color: #404bbf;
 }
+/* section 2-3 */
 .description {
   font-weight: 500;
   font-size: 20px;
@@ -105,39 +139,7 @@ ol {
   background-color: #ffffff;
 }
 
-.comment-our {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-family: "Roboto", sans-serif;
-}
-.logo-nav {
-  background-color: #2e2f42;
-}
-.logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-color {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-.logo-nav-two {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-/* section for */
+/* section 4 */
 .portfolio {
   background-color: #f4f4fd;
 }
@@ -168,4 +170,29 @@ ol {
 
 .portfolio-list-item {
   background-color: #ffffff;
+}
+/* footer */
+.logo-nav {
+  background-color: #2e2f42;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-color {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.logo-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
