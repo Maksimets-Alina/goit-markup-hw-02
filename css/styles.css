@@ -152,11 +152,10 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  
 }
 .description-two {
-   text-align: center; 
-    margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .comment {
   font-size: 16px;
@@ -167,7 +166,7 @@ img {
 }
 .sectionthree {
   background-color: #f4f4fd;
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .team {
@@ -181,17 +180,19 @@ img {
 }
 .section-three-list {
   display: flex;
-  gap: 24px; 
+  gap: 24px;
 }
 .background-color {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4)
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 /* section 4 */
 .portfolio {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-title {
   font-weight: 700;
@@ -202,6 +203,7 @@ img {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-page {
   font-weight: 500;
@@ -209,6 +211,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -220,6 +223,13 @@ img {
 
 .portfolio-list-item {
   background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 /* footer */
 .logo-nav {
@@ -235,7 +245,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 .logo-color {
   font-weight: 700;
