@@ -61,7 +61,7 @@ img {
 }
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .navigation {
   display: flex;
@@ -241,6 +241,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
