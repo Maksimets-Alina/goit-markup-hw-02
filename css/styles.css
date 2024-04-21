@@ -5,21 +5,25 @@ body {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul,
 ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 img {
   display: block;
@@ -48,6 +52,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -102,6 +107,9 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero {
   font-size: 56px;
@@ -119,14 +127,13 @@ img {
   color: #fff;
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
-  cursor: pointer;
   display: block;
   min-width: 169px;
   border: none;
   height: 56px;
-  background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  padding: 16px 32px;
 }
 .service:hover,
 .service:focus {
