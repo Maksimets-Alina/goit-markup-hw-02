@@ -188,7 +188,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 .sectionthree {
   background-color: #f4f4fd;
@@ -280,6 +279,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
+}
+.logo-two {
   margin-bottom: 16px;
 }
 .logo-color {
