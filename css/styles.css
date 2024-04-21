@@ -130,6 +130,8 @@ img {
 
   color: #ffffff;
   max-width: 496px;
+  display: block;
+  margin: 0 auto 48px auto;
 }
 .service {
   font-weight: 500;
@@ -146,6 +148,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   padding: 16px 32px;
+  margin: auto;
 }
 .service:hover,
 .service:focus {
