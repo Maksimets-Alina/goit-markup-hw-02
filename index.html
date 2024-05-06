@@ -707,7 +707,7 @@
           <div class="rewiew-checkbox">
             <input
               type="checkbox"
-              class="checkbox"
+              class="checkbox visually-hidden"
               id="user-privacy"
               name="user-privacy"
               value="true"
@@ -715,8 +715,13 @@
             />
             <label for="user-privacy" class="rewiew-checkbox-wrapper"
               >I accept the terms and conditions of the
-              <a href="" class="pravicy-policy">Privacy Policy</a></label
-            >
+              <a href="" class="pravicy-policy">Privacy Policy</a>
+              <span class="rewiew-span-checbox">
+                <svg class="rewiew-icon-checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+            </label>
           </div>
           <button class="rewiew-form-submit" type="submit">Send</button>
         </form>
