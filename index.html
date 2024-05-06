@@ -634,7 +634,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
-          <svg class="modal-close-btn-icon" width="8px" height="8px">
+          <svg class="modal-close-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -660,31 +660,41 @@
                 title="Oleksii"
                 required
               />
-              <svg class="rewiew-icon" width="18px" height="24px">
+              <svg class="rewiew-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-persons"></use>
               </svg>
             </div>
           </div>
           <div class="rewiew-wrapper">
             <label for="user-email" class="rewiew-label">Phone</label>
-            <input
-              type="email"
-              class="rewiew-input"
-              id="user-email"
-              name="user-email"
-              required
-            />
+            <div class="rewiew-for-imput-wrapper">
+              <input
+                type="email"
+                class="rewiew-input"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg class="rewiew-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="rewiew-wrapper">
             <label for="user-tel" class="rewiew-label">Email</label>
-            <input
-              type="tel"
-              class="rewiew-input"
-              id="user-tel"
-              name="user-tel"
-            />
+            <div class="rewiew-for-imput-wrapper">
+              <input
+                type="tel"
+                class="rewiew-input"
+                id="user-tel"
+                name="user-tel"
+              />
+              <svg class="rewiew-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
-          <div class="rewiew-wrapper">
+          <div class="rewiew-wrapper rewiew-wrapper-two">
             <label for="user-comment" class="rewiew-label">Comment</label>
             <textarea
               class="rewiew-message"
@@ -698,12 +708,12 @@
             <input
               type="checkbox"
               class="checkbox"
-              id="pravicy-policy"
-              name="pravicy-policy"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label for="pravicy-policy" class="rewiew-checkbox-wrapper"
+            <label for="user-privacy" class="rewiew-checkbox-wrapper"
               >I accept the terms and conditions of the
               <a href="" class="pravicy-policy">Privacy Policy</a></label
             >
