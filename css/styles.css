@@ -1202,3 +1202,13 @@ line-height: 120%; */
     font-size: 16px;
   }
 }
+
+.mobile-menu {
+  height: 100vh; /* Висота меню займає весь вьюпорт */
+}
+.mobile-menu {
+  display: none; /* Приховуємо меню за замовчуванням */
+}
+.mobile-menu.is-open {
+  display: block; /* Показуємо меню при наявності класу is-open */
+}
